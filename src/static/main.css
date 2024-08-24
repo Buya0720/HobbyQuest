@@ -1,0 +1,45 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation container */
+nav {
+    background-color: #333; /* Dark background color */
+    padding: 10px 0; /* Padding for vertical spacing */
+}
+
+/* Style for navigation list items */
+nav .nav-item {
+    display: inline-block; /* Align items horizontally */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for navigation links */
+nav .nav-link {
+    display: block;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 20px; /* Padding for spacing */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for navigation links */
+nav .nav-link:hover {
+    background-color: #575757; /* Darker background on hover */
+    color: #f1f1f1; /* Light text color on hover */
+}
+
+/* Responsive adjustment */
+@media screen and (max-width: 600px) {
+    nav .nav-item {
+        display: block; /* Stack items vertically on small screens */
+        text-align: left; /* Align text to the left */
+    }
+
+    nav .nav-link {
+        padding: 10px 15px; /* Adjust padding for smaller screens */
+    }
+}

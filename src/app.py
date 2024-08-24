@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, make_response, render_template, request
+from flask import Flask, jsonify, make_response, render_template, request, url_for
 from calendar_ import db, TimeSlot
 
 app = Flask(__name__, template_folder="./templates")
@@ -9,6 +9,14 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///timeslots.db'
 db.init_app(app)
 with app.app_context():
     db.create_all()
+
+@app.context_processor
+def navbar_in():
+    navbar_ = [
+        {"text": "Home", "url": url_for('index')},
+        # {"text": "Timeslot", "url": url_for('timeslots')}
+    ]
+    return dict(navbar = navbar_)
 
 @app.route('/')
 def index():
@@ -33,7 +41,7 @@ def timeslot():
             return jsonify({'message': 'Success'}), 200
         return jsonify({'message': 'Slot not found'}), 404
     slots = TimeSlot.query.all()
-    return render_template('timeslot.html', slots=slots)
+    return render_template('timeslot_2.html', slots=slots)
 
 @app.route('/locations')
 def locations():

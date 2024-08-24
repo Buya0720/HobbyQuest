@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./static/main.css">
+    
 </head>
 <body>
-    
+    <nav>
+        {% for nav_ in navbar %}
+            <li class="nav-item">
+            <a class="nav-link" href="{{nav_.url}}">{{nav_.text}}</a>
+          </li>
+        {% endfor %}
+    </nav>
 </body>
 </html>
