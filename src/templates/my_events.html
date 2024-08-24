@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Events</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333333;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .list {
+            width: 30%;
+            padding: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .list h2 {
+            margin: 0;
+            padding: 10px;
+            color: #ffffff;
+            border-radius: 4px;
+        }
+        .accepted h2 {
+            background-color: #28a745; /* Green */
+        }
+        .recommended h2 {
+            background-color: #ffc107; /* Yellow */
+        }
+        .declined h2 {
+            background-color: #dc3545; /* Red */
+        }
+        .event-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .event-item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .event-item h3 {
+            margin: 0;
+            font-size: 16px;
+            color: #333333;
+        }
+        .event-item .details {
+            font-size: 14px;
+            color: #666666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Events</h1>
+    </header>
+    <div class="container">
+        <div class="list accepted">
+            <h2>Accepted</h2>
+            <ul class="event-list">
+                <li class="event-item">
+                    <h3>Karaoke night</h3>
+                    <div class="details">Where: 10-14 Atherden Street, The Rocks NSW 2000<br>When: 08/26/24 @9PM</div>
+            </ul>
+        </div>
+        <div class="list recommended">
+            <h2>Recommended</h2>
+            <ul class="event-list">
+                <li class="event-item">
+                    <h3>Outdoor Basketball session</h3>
+                    <div class="details">Where: 3/15 Rowe St, Sydenham NSW 2044<br>When: 08/26/24 @11AM</div>
+                </li>
+                <li class="event-item">
+                    <h3>Magic the Gathering</h3>
+                    <div class="details">Where: 74 King Street, Newtown NSW 2042<br>When: 08/25/24 @6PM</div>
+                </li>
+            </ul>
+        </div>
+        <div class="list declined">
+            <h2>Declined</h2>
+            <ul class="event-list">
+                <li class="event-item">
+                    <h3>Morning Yoga</h3>
+                    <div class="details">Where: 12-14 Elizabeth Street, Surry Hills NSW 2010<br>When: 08/29/24 @6AM</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
