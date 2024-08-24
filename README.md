@@ -1,4 +1,4 @@
-# Connect-App
+# Connect App
 
 <table>
 <tr>
