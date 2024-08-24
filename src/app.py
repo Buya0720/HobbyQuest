@@ -1,4 +1,5 @@
-from flask import Flask, make_response, render_template, request
+from flask import Flask, jsonify, make_response, render_template, request
+from calendar_ import db, TimeSlot
 
 app = Flask(__name__, template_folder="./templates")
 app.config['SECRET_KEY'] = "f7G@k8!r^V2jL&x9*ZbQ0$uP#nT1mW"
@@ -12,9 +13,30 @@ def index():
 def user():
     return render_template()
 
+@app.route('/timeslots')
+def timeslot():
+    if request.method == "POST":
+        data = request.json
+        slot_id = data.get('id')
+        status = data.get('status')
+
+        slot = TimeSlot.query.get(slot_id)
+        if slot:
+            slot.status = status
+            db.status = status
+            db.session.commit()
+            return jsonify({'message': 'Success'}), 200
+        return jsonify({'message': 'Slot not found'}), 404
+    slots = TimeSlot.query.all()
+    return render_template('timeslot.html', slots=slots)
+
 @app.route('/locations')
 def locations():
     return render_template('location_page.html')
+
+@app.route('/hobby')
+def hobby():
+    return render_template('hobby_page.html')
 
 @app.errorhandler(404)
 def page_not_found(error):

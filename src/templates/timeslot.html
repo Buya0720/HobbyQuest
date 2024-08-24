@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Time Slots</h1>
+    <table id="slots_tab">
+        <thead>
+            <tr>
+                <th>Start</th>
+                <th>End</th>
+                <th>User Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for slot in slots %}
+                <td>{{ slot.start_time }}</td>
+                <td>{{ slot.end_time }}</td>
+                <td>{{ slot.status }}</td>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const table = document.getElementById('slots-table');
+
+    table.addEventListener('click', function(event) {
+        const target = event.target;
+
+        if (target.classList.contains('status')) {
+            const row = target.parentElement;
+            const slotId = row.getAttribute('data-id');
+            const currentStatus = target.getAttribute('data-status');
+
+            const newStatus = currentStatus === 'Available' ? 'Booked' : 'Available';
+            target.textContent = newStatus;
+            target.setAttribute('data-status', newStatus);
+
+            fetch('/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    id: slotId,
+                    status: newStatus
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.message !== 'Success') {
+                    alert('Error updating slot.');
+                    // Revert status change in case of error
+                    target.textContent = currentStatus;
+                    target.setAttribute('data-status', currentStatus);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Revert status change in case of error
+                target.textContent = currentStatus;
+                target.setAttribute('data-status', currentStatus);
+            });
+        }
+    });
+});
+</script>
+</html>
