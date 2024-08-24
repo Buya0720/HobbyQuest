@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies & Interests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F5F5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #FFFFFF;
+            border: 2px solid #D3D3D3;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .category-group {
+            margin-bottom: 30px;
+        }
+        .category-title {
+            display: inline-block;
+            background-color: #DFF0D8;
+            color: black;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: 2px solid #B2D8B2;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 15px;
+        }
+        .category-title.selected {
+            background-color: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            background-color: #E0E0E0;
+            color: black;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: 2px solid #D3D3D3;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn.selected {
+            background-color: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
+        .done-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .done-btn:hover {
+            background-color: #45A049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title">Hobbies & Interest</div>
+
+    <!-- Sports & Fitness -->
+    <div class="category-group" id="sports-fitness-group">
+        <div class="category-title" id="sports-fitness" onclick="toggleCategory('sports-fitness', ['soccer', 'basketball', 'volleyball', 'running', 'cycling'])">Sports & Fitness</div>
+        <div class="btn-group">
+            <div class="btn" id="soccer" onclick="toggleSubCategory('soccer', 'sports-fitness', ['soccer', 'basketball', 'volleyball', 'running', 'cycling'])">Soccer</div>
+            <div class="btn" id="basketball" onclick="toggleSubCategory('basketball', 'sports-fitness', ['soccer', 'basketball', 'volleyball', 'running', 'cycling'])">Basketball</div>
+            <div class="btn" id="volleyball" onclick="toggleSubCategory('volleyball', 'sports-fitness', ['soccer', 'basketball', 'volleyball', 'running', 'cycling'])">Volleyball</div>
+            <div class="btn" id="running" onclick="toggleSubCategory('running', 'sports-fitness', ['soccer', 'basketball', 'volleyball', 'running', 'cycling'])">Running</div>
+            <div class="btn" id="cycling" onclick="toggleSubCategory('cycling', 'sports-fitness', ['soccer', 'basketball', 'volleyball', 'running', 'cycling'])">Cycling</div>
+        </div>
+    </div>
+
+    <!-- Arts & Culture -->
+    <div class="category-group" id="arts-culture-group">
+        <div class="category-title" id="arts-culture" onclick="toggleCategory('arts-culture', ['visual-arts', 'performing-arts', 'literature', 'music', 'film'])">Arts & Culture</div>
+        <div class="btn-group">
+            <div class="btn" id="visual-arts" onclick="toggleSubCategory('visual-arts', 'arts-culture', ['visual-arts', 'performing-arts', 'literature', 'music', 'film'])">Visual Arts</div>
+            <div class="btn" id="performing-arts" onclick="toggleSubCategory('performing-arts', 'arts-culture', ['visual-arts', 'performing-arts', 'literature', 'music', 'film'])">Performing Arts</div>
+            <div class="btn" id="literature" onclick="toggleSubCategory('literature', 'arts-culture', ['visual-arts', 'performing-arts', 'literature', 'music', 'film'])">Literature & Writing</div>
+            <div class="btn" id="music" onclick="toggleSubCategory('music', 'arts-culture', ['visual-arts', 'performing-arts', 'literature', 'music', 'film'])">Music</div>
+            <div class="btn" id="film" onclick="toggleSubCategory('film', 'arts-culture', ['visual-arts', 'performing-arts', 'literature', 'music', 'film'])">Film</div>
+        </div>
+    </div>
+
+    <!-- Nature & Outdoors -->
+    <div class="category-group" id="nature-outdoors-group">
+        <div class="category-title" id="nature-outdoors" onclick="toggleCategory('nature-outdoors', ['hiking', 'camping', 'wildlife', 'gardening', 'adventure'])">Nature & Outdoors</div>
+        <div class="btn-group">
+            <div class="btn" id="hiking" onclick="toggleSubCategory('hiking', 'nature-outdoors', ['hiking', 'camping', 'wildlife', 'gardening', 'adventure'])">Hiking</div>
+            <div class="btn" id="camping" onclick="toggleSubCategory('camping', 'nature-outdoors', ['hiking', 'camping', 'wildlife', 'gardening', 'adventure'])">Camping</div>
+            <div class="btn" id="wildlife" onclick="toggleSubCategory('wildlife', 'nature-outdoors', ['hiking', 'camping', 'wildlife', 'gardening', 'adventure'])">Wildlife</div>
+            <div class="btn" id="gardening" onclick="toggleSubCategory('gardening', 'nature-outdoors', ['hiking', 'camping', 'wildlife', 'gardening', 'adventure'])">Gardening</div>
+            <div class="btn" id="adventure" onclick="toggleSubCategory('adventure', 'nature-outdoors', ['hiking', 'camping', 'wildlife', 'gardening', 'adventure'])">Adventure</div>
+        </div>
+    </div>
+
+    <!-- Food & Drink -->
+    <div class="category-group" id="food-drink-group">
+        <div class="category-title" id="food-drink" onclick="toggleCategory('food-drink', ['cooking', 'dining', 'drinks', 'street-food', 'food-markets'])">Food & Drink</div>
+        <div class="btn-group">
+            <div class="btn" id="cooking" onclick="toggleSubCategory('cooking', 'food-drink', ['cooking', 'dining', 'drinks', 'street-food', 'food-markets'])">Cooking</div>
+            <div class="btn" id="dining" onclick="toggleSubCategory('dining', 'food-drink', ['cooking', 'dining', 'drinks', 'street-food', 'food-markets'])">Dining</div>
+            <div class="btn" id="drinks" onclick="toggleSubCategory('drinks', 'food-drink', ['cooking', 'dining', 'drinks', 'street-food', 'food-markets'])">Drinks</div>
+            <div class="btn" id="street-food" onclick="toggleSubCategory('street-food', 'food-drink', ['cooking', 'dining', 'drinks', 'street-food', 'food-markets'])">Street Food</div>
+            <div class="btn" id="food-markets" onclick="toggleSubCategory('food-markets', 'food-drink', ['cooking', 'dining', 'drinks', 'street-food', 'food-markets'])">Food Markets</div>
+        </div>
+    </div>
+
+    <!-- Shopping & Fashion -->
+    <div class="category-group" id="shopping-fashion-group">
+        <div class="category-title" id="shopping-fashion" onclick="toggleCategory('shopping-fashion', ['style', 'thrifting', 'home-decor', 'beauty', 'accessories'])">Shopping & Fashion</div>
+        <div class="btn-group">
+            <div class="btn" id="style" onclick="toggleSubCategory('style', 'shopping-fashion', ['style', 'thrifting', 'home-decor', 'beauty', 'accessories'])">Style</div>
+            <div class="btn" id="thrifting" onclick="toggleSubCategory('thrifting', 'shopping-fashion', ['style', 'thrifting', 'home-decor', 'beauty', 'accessories'])">Thrifting</div>
+            <div class="btn" id="home-decor" onclick="toggleSubCategory('home-decor', 'shopping-fashion', ['style', 'thrifting', 'home-decor', 'beauty', 'accessories'])">Home Decor</div>
+            <div class="btn" id="beauty" onclick="toggleSubCategory('beauty', 'shopping-fashion', ['style', 'thrifting', 'home-decor', 'beauty', 'accessories'])">Beauty</div>
+            <div class="btn" id="accessories" onclick="toggleSubCategory('accessories', 'shopping-fashion', ['style', 'thrifting', 'home-decor', 'beauty', 'accessories'])">Accessories</div>
+        </div>
+    </div>
+
+    <!-- Education & Knowledge -->
+    <div class="category-group" id="education-knowledge-group">
+        <div class="category-title" id="education-knowledge" onclick="toggleCategory('education-knowledge', ['languages', 'workshops', 'academics', 'self-help', 'books'])">Education & Knowledge</div>
+        <div class="btn-group">
+            <div class="btn" id="languages" onclick="toggleSubCategory('languages', 'education-knowledge', ['languages', 'workshops', 'academics', 'self-help', 'books'])">Languages</div>
+            <div class="btn" id="workshops" onclick="toggleSubCategory('workshops', 'education-knowledge', ['languages', 'workshops', 'academics', 'self-help', 'books'])">Workshops</div>
+            <div class="btn" id="academics" onclick="toggleSubCategory('academics', 'education-knowledge', ['languages', 'workshops', 'academics', 'self-help', 'books'])">Academics</div>
+            <div class="btn" id="self-help" onclick="toggleSubCategory('self-help', 'education-knowledge', ['languages', 'workshops', 'academics', 'self-help', 'books'])">Self-Help</div>
+            <div class="btn" id="books" onclick="toggleSubCategory('books', 'education-knowledge', ['languages', 'workshops', 'academics', 'self-help', 'books'])">Books</div>
+        </div>
+    </div>
+
+    <button class="done-btn" onclick="submitData()">DONE</button>
+</div>
+<script>
+    // Object to store the state of each subcategory
+    const categoryState = {
+        // Sports & Fitness
+        'soccer': 0,
+        'basketball': 0,
+        'volleyball': 0,
+        'running': 0,
+        'cycling': 0,
+
+        // Arts & Culture
+        'visual-arts': 0,
+        'performing-arts': 0,
+        'literature': 0,
+        'music': 0,
+        'film': 0,
+
+        // Nature & Outdoors
+        'hiking': 0,
+        'camping': 0,
+        'wildlife': 0,
+        'gardening': 0,
+        'adventure': 0,
+
+        // Food & Drink
+        'cooking': 0,
+        'dining': 0,
+        'drinks': 0,
+        'street-food': 0,
+        'food-markets': 0,
+
+        // Shopping & Fashion
+        'style': 0,
+        'thrifting': 0,
+        'home-decor': 0,
+        'beauty': 0,
+        'accessories': 0,
+
+        // Education & Knowledge
+        'languages': 0,
+        'workshops': 0,
+        'academics': 0,
+        'self-help': 0,
+        'books': 0
+    };
+
+    // Function to toggle the entire category
+    function toggleCategory(category, subCategories) {
+        const categoryElement = document.getElementById(category);
+        const isSelected = categoryElement.classList.contains('selected');
+        
+        subCategories.forEach(subCategory => {
+            const subCategoryElement = document.getElementById(subCategory);
+            subCategoryElement.classList.toggle('selected', !isSelected);
+            categoryState[subCategory] = !isSelected ? 1 : 0;
+        });
+        
+        categoryElement.classList.toggle('selected', !isSelected);
+    }
+
+    // Function to toggle individual subcategories
+    function toggleSubCategory(subCategory, parentCategory, subCategories) {
+        const subCategoryElement = document.getElementById(subCategory);
+        subCategoryElement.classList.toggle('selected');
+        
+        categoryState[subCategory] = subCategoryElement.classList.contains('selected') ? 1 : 0;
+
+        // Update the parent category state
+        const allSelected = subCategories.every(sc => categoryState[sc] === 1);
+        const parentCategoryElement = document.getElementById(parentCategory);
+        parentCategoryElement.classList.toggle('selected', allSelected);
+    }
+
+    // Function to handle the submission
+    function submitData() {
+        console.log(categoryState);
+        alert(JSON.stringify(categoryState));
+        // Here you would typically make an AJAX request to send the data to your Flask backend.
+        fetch('/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(categoryState),
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Success:', data);
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+    }
+</script>
+</body>
+</html>
