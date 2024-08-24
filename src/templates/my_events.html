@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Events</title>
+    <nav>
+        {% for nav_ in navbar %}
+            <li class="nav-item">
+            <a class="nav-link" href="{{nav_.url}}">{{nav_.text}}</a>
+          </li>
+        {% endfor %}
+    </nav>
     <style>
         body {
             margin: 0;

@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<nav>
+    {% for nav_ in navbar %}
+        <li class="nav-item">
+        <a class="nav-link" href="{{nav_.url}}">{{nav_.text}}</a>
+      </li>
+    {% endfor %}
+</nav>
 <body>
     <h1>Time Slots</h1>
     <table id="slots_tab">
