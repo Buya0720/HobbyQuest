@@ -32,6 +32,7 @@
 # How to use
 1. Clone this repository
 2. Run the app.py file:
+
 ```Bash
 > $ python3 main.py
 ```
