@@ -20,6 +20,10 @@ def timeslot():
 def locations():
     return render_template('location_page.html')
 
+@app.route('/hobby')
+def locations():
+    return render_template('hobby_page.html')
+
 @app.errorhandler(404)
 def page_not_found(error):
     resp = make_response(render_template('404.html'), 404)
