@@ -1,4 +1,6 @@
-# Connect App
+# Connect-App
+
+<img src="./docs/assets/syncs_banner.png">
 
 <table>
 <tr>
@@ -26,3 +28,8 @@
 <td>buyandelger.batu@gmail.com</td>
 </tr>
 </table>
+
+# How to use
+1. Clone this repository
+2. Run the app.py file:
+> $ python3 main.py
