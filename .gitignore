@@ -2,7 +2,12 @@
 .vscode/
 .idea/
 
+# Virtual environments
 .venv/
+
+# OS generated files
+**/.DS_Store
+**/Thumbs.db
 
 # Python cache
 **/__pycache__/
