@@ -1,12 +1,50 @@
 import pandas as pd
-from sklearn.cluster import DBSCAN
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
+import seaborn as sns; sns.set()
 
 # Load the original CSV file
 df = pd.read_csv('fake_user_data_scarce.csv')
 
-# Perform DBSCAN clustering
-dbscan = DBSCAN(eps=0.045, min_samples=1, metric='euclidean')
-df['Cluster'] = dbscan.fit_predict(df[['Latitude', 'Longitude']])
+
+# Define optimal number of geogrpahical clusters
+K_clusters = range(1,20)
+kmeans = [KMeans(n_clusters=i) for i in K_clusters]
+Y_axis = df[['Latitude']]
+X_axis = df[['Longitude']]
+score = [kmeans[i].fit(Y_axis).score(Y_axis) for i in range(len(kmeans))]
+# Visualize
+plt.plot(K_clusters, score)
+plt.xlabel('Number of Clusters')
+plt.ylabel('Score')
+plt.title('Elbow Curve')
+plt.show()
+
+# Find the optimal number of clusters where the score is larger than the threshold (-0.15)
+threshold = -0.15
+k_optimal = next((i + 1 for i, s in enumerate(score) if s > threshold), None)
+
+# Clustering using K-Means with the optimal number of clusters
+kmeans = KMeans(n_clusters=k_optimal, init='k-means++')
+kmeans.fit(df[['Latitude', 'Longitude']])  # Use the correct columns from df
+
+# Assign clusters to the DataFrame
+df['Cluster'] = kmeans.predict(df[['Latitude', 'Longitude']])
+
+# Extract the coordinates of the cluster centers
+centers = kmeans.cluster_centers_
+
+# Labels of each point (optional if already assigned above)
+labels = kmeans.predict(df[['Latitude', 'Longitude']])
+
+# Optionally, visualize the clusters
+plt.scatter(df['Longitude'], df['Latitude'], c=labels, cmap='viridis')
+plt.scatter(centers[:, 1], centers[:, 0], s=300, c='red', label='Centers')
+plt.xlabel('Longitude')
+plt.ylabel('Latitude')
+plt.title('Clusters based on Latitude and Longitude')
+plt.legend()
+plt.show()
 
 # Define interest columns
 interest_columns = df.columns[4:34].tolist()
@@ -71,3 +109,4 @@ def generate_subgroups(cluster_df, cluster_id):
 # Apply subgroup creation to each geographic cluster
 for cluster_id, cluster_df in df_optimized.groupby('Cluster'):
     generate_subgroups(cluster_df, cluster_id)
+

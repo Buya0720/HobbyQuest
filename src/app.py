@@ -12,6 +12,10 @@ def index():
 def user():
     return render_template()
 
+@app.route('/timeslots')
+def timeslot():
+    return render_template('timeslot.html')
+
 @app.route('/locations')
 def locations():
     return render_template('location_page.html')
