@@ -4,6 +4,9 @@ from calendar_ import db, TimeSlot
 app = Flask(__name__, template_folder="./templates")
 app.config['SECRET_KEY'] = "f7G@k8!r^V2jL&x9*ZbQ0$uP#nT1mW"
 app.config['APPLICATION_ROOT'] = '/src'
+db.init_app(app)
+with app.app_context():
+    db.create_all()
 
 @app.route('/')
 def index():
