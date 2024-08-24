@@ -22,7 +22,7 @@
             text-align: center;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
-            overflow-y: hidden;  /* Prevent vertical overflow on the container */
+            overflow-y: hidden;
         }
 
         .title {
@@ -37,7 +37,7 @@
             gap: 2px;
             margin-bottom: 20px;
             height: 400px;
-            overflow-y: auto;  /* Allow scrolling inside the calendar */
+            overflow-y: auto;
             border: 1px solid #d3d3d3;
         }
 
@@ -45,9 +45,9 @@
             background-color: #dff0d8;
             padding: 10px;
             font-weight: bold;
-            position: sticky;  /* Make the header sticky */
-            top: 0;  /* Stick the header to the top */
-            z-index: 1;  /* Ensure the header stays above the other cells */
+            position: sticky;
+            top: 0;
+            z-index: 1;
         }
 
         .time-label {
@@ -164,16 +164,16 @@
         console.log(days);  // Display the structure in the console for now
         
         // Convert the days object into a readable format for the alert
-        let alertMessage = "Selected Time Slots:\n";
-        for (const [day, hours] of Object.entries(days)) {
-            alertMessage += `${day.charAt(0).toUpperCase() + day.slice(1)}: ${hours.join(", ")}\n`;
-        }
+        // let alertMessage = "Selected Time Slots:\n";
+        // for (const [day, hours] of Object.entries(days)) {
+        //     alertMessage += `${day.charAt(0).toUpperCase() + day.slice(1)}: ${hours.join(", ")}\n`;
+        // }
 
-        // Display the selected slots in an alert
-        alert(alertMessage);
+        // // Display the selected slots in an alert
+        // alert(alertMessage);
 
         // Send the data to the backend
-        fetch('/submit_slots', {
+        fetch('{{ url_for("timeslot") }}', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -183,6 +183,8 @@
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
+            // Redirect to the next page (hobby selection) if needed
+            window.location.href = "{{ url_for('hobby') }}";  // Adjust the next route as necessary
         })
         .catch((error) => {
             console.error('Error:', error);

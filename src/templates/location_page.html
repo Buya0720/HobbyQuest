@@ -62,32 +62,40 @@
 <div class="container">
     <div class="title">Please Select Your Location</div>
 
-    <div class="form-group">
-        <label for="city" class="select-label">YOUR CITY</label>
-        <select id="city" name="city">
-            <option value="">Select</option>
-            <option value="central" data-lat="-33.8688" data-lng="151.2093">Central</option>
-            <option value="inner-west" data-lat="-33.8807" data-lng="151.1802">Inner West</option>
-            <option value="bondi" data-lat="-33.8908" data-lng="151.2743">Bondi</option>
-            <option value="parramatta" data-lat="-33.8136" data-lng="151.0034">Parramatta</option>
-            <option value="north-sydney" data-lat="-33.8395" data-lng="151.2088">North Sydney</option>
-        </select>
-    </div>
+    <!-- Form to submit the location -->
+    <form action="{{ url_for('location') }}" method="POST" onsubmit="return validateForm()">
+        <div class="form-group">
+            <label for="city" class="select-label">YOUR CITY</label>
+            <select id="city" name="city">
+                <option value="">Select</option>
+                <option value="central" data-lat="-33.8688" data-lng="151.2093">Central</option>
+                <option value="inner-west" data-lat="-33.8807" data-lng="151.1802">Inner West</option>
+                <option value="bondi" data-lat="-33.8908" data-lng="151.2743">Bondi</option>
+                <option value="parramatta" data-lat="-33.8136" data-lng="151.0034">Parramatta</option>
+                <option value="north-sydney" data-lat="-33.8395" data-lng="151.2088">North Sydney</option>
+            </select>
+        </div>
 
-    <button class="btn" onclick="showCoordinates()">NEXT</button>
+        <input type="hidden" id="latitude" name="latitude">
+        <input type="hidden" id="longitude" name="longitude">
+
+        <button type="submit" class="btn">NEXT</button>
+    </form>
 </div>
 
 <script>
-    function showCoordinates() {
+    function validateForm() {
         const selectElement = document.getElementById('city');
         const selectedOption = selectElement.options[selectElement.selectedIndex];
 
         if (selectedOption.value) {
-            const lat = selectedOption.getAttribute('data-lat');
-            const lng = selectedOption.getAttribute('data-lng');
-            alert(`Latitude: ${lat}, Longitude: ${lng}`);
+            // Set hidden fields with the latitude and longitude values
+            document.getElementById('latitude').value = selectedOption.getAttribute('data-lat');
+            document.getElementById('longitude').value = selectedOption.getAttribute('data-lng');
+            return true; // Allow the form to be submitted
         } else {
             alert('Please select a city.');
+            return false; // Prevent form submission
         }
     }
 </script>

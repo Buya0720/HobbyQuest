@@ -248,17 +248,26 @@
     function submitData() {
         console.log(categoryState);
         alert(JSON.stringify(categoryState));
-        // Here you would typically make an AJAX request to send the data to your Flask backend.
-        fetch('/submit', {
+
+        // Include the location and timeslot data stored in the session (on the server-side)
+        // const data = {
+        //     location: locationData,
+        //     timeslots: timeslotData,
+        //     hobbies: categoryState
+        // };
+
+        fetch('{{ url_for("hobby") }}', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(categoryState),
+            body: JSON.stringify(categoryState),  // Convert the entire data object to JSON
         })
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
+            
+            //window.location.href = "/summary";  // Adjust the next route as necessary
         })
         .catch((error) => {
             console.error('Error:', error);
