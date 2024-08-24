@@ -19,7 +19,7 @@ def user():
     return render_template()
 
 @app.route('/timeslots')
-def timeslot():
+def timeslots():
     if request.method == "POST":
         data = request.json
         slot_id = data.get('id')
@@ -35,6 +35,10 @@ def timeslot():
     slots = TimeSlot.query.all()
     return render_template('timeslot.html', slots=slots)
 
+@app.route('/timeslot')
+def timeslot():
+    return render_template('timeslot_2.html')
+
 @app.route('/locations')
 def locations():
     return render_template('location_page.html')
@@ -42,6 +46,14 @@ def locations():
 @app.route('/hobby')
 def hobby():
     return render_template('hobby_page.html')
+
+@app.route('/myevents')
+def my_events():
+    return render_template('my_events.html')
+
+@app.route('/browse')
+def browse():
+    return render_template('browse_events.html')
 
 @app.errorhandler(404)
 def page_not_found(error):
