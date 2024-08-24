@@ -2,7 +2,7 @@
 .vscode/
 .idea/
 
-.venv
+.venv/
 
 # Python cache
 **/__pycache__/
