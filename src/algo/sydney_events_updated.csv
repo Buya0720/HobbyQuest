@@ -1,0 +1,541 @@
+EventID,EventName,FunName,Longitude,Latitude,Interest,Location,MinPeople,MaxPeople
+1,Music Event #1,Cultural Feast,150.679628,-33.950943,Music,Circular Quay,3,11
+2,Street Food Event #2,Flicks & Food,150.926758,-33.724155,Street Food,Barangaroo,3,8
+3,Music Event #3,Mindful Moments,150.781376,-33.950027,Music,Newtown,3,8
+4,Cycling Event #4,Mindful Moments,150.98787,-33.717877,Cycling,Manly,3,9
+5,Film Screenings Event #5,Sunset Soirée,150.991256,-33.784729,Film,Newtown,3,7
+6,Film Screenings Event #6,Cultural Feast,150.66492,-33.868424,Film,Sydney Opera House,3,7
+7,Music Event #7,DIY Decor,150.822413,-33.754144,Music,Circular Quay,3,7
+8,Music Event #8,Cultural Feast,151.002606,-33.835223,Music,Circular Quay,3,12
+9,Music Event #9,Chill & Grill,150.727635,-33.92422,Music,Newtown,3,6
+10,Music Event #10,Thrill Seeker's Delight,150.909109,-33.76519,Music,Newtown,3,14
+11,Music Event #11,Taste of Sydney,150.873767,-33.835307,Music,Darling Harbour,3,7
+12,Visual Arts Event #12,Snap & Stroll,150.855747,-33.895813,Visual Arts,Surry Hills,3,8
+13,Wildlife Watching Event #13,Street Eats & Beats,150.756936,-33.96869,Wildlife,Bondi Beach,3,6
+14,Workshops Event #14,Mindful Moments,151.152586,-33.983577,Workshops,Pyrmont,3,8
+15,History Walks Event #15,Jazz & Jive,150.944557,-33.778508,Hiking,The Rocks,3,15
+16,Visual Arts Event #16,Sunset Soirée,151.035516,-33.781246,Visual Arts,Royal Botanic Garden,3,3
+17,Music Event #17,Laugh & Learn,151.125253,-33.977361,Music,Pyrmont,3,8
+18,Street Food Event #18,Sunset Soirée,150.97218,-33.770406,Street Food,Barangaroo,3,7
+19,Running Event #19,Jazz & Jive,151.209451,-33.830106,Running,Barangaroo,3,3
+20,Running Event #20,Jazz & Jive,150.691723,-33.829124,Running,Coogee,3,6
+21,Workshops Event #21,Laugh & Learn,151.109834,-33.956578,Workshops,Newtown,3,12
+22,Books Event #22,Jazz & Jive,151.045981,-33.927853,Books,Glebe,3,14
+23,Cooking Event #23,Vintage Vibes,150.636268,-33.788269,Cooking,Balmain,3,14
+24,Home Decor Event #24,Creative Carnival,150.887037,-33.717277,Home Decor,Paddington,3,4
+25,Street Food Event #25,Cultural Feast,151.003251,-33.710768,Street Food,Balmain,3,4
+26,Street Food Event #26,Jazz & Jive,150.620856,-33.801462,Street Food,Manly,3,5
+27,Wildlife Event #27,Flicks & Food,151.296209,-33.783615,Wildlife,Royal Botanic Garden,3,9
+28,Wildlife Watching Event #28,Eco-Explorer,150.729733,-33.85787,Wildlife,Bondi Beach,3,9
+29,Street Food Event #29,DIY Decor,151.22601,-33.843622,Street Food,Darling Harbour,3,10
+30,Street Food Event #30,Chill & Grill,151.146019,-33.792683,Street Food,Balmain,3,14
+31,Workshops Event #31,Jazz & Jive,151.273267,-33.91843,Workshops,Chippendale,3,12
+32,Workshops Event #32,Write On!,151.292077,-33.834577,Workshops,Chippendale,3,6
+33,Running Event #33,Chill & Grill,151.170178,-33.813445,Running,Royal Botanic Garden,3,12
+34,Thrifting Event #34,Jazz & Jive,150.926425,-33.775474,Thrifting,Paddington,3,14
+35,Beach Soccer Event #35,Thrill Seeker's Delight,151.089769,-33.862402,Soccer,Manly,6,14
+36,Street Food Event #36,Laugh & Learn,150.821253,-33.892968,Street Food,Barangaroo,3,11
+37,Street Food Event #37,Write On!,150.964114,-33.700844,Street Food,Pyrmont,3,12
+38,Street Food Event #38,Chill & Grill,150.686263,-33.753289,Street Food,Manly,3,14
+39,Wildlife Watching Event #39,Write On!,150.666129,-33.832369,Wildlife,Bondi Beach,3,7
+40,Performing Arts Event #40,Creative Carnival,150.718118,-33.86858,Performing Arts,Sydney Opera House,3,7
+41,Wildlife Event #41,Street Eats & Beats,150.708899,-33.745886,Wildlife,Royal Botanic Garden,3,15
+42,Cycling Event #42,Flicks & Food,150.825214,-33.777376,Cycling,Manly,3,6
+43,Style Event #43,Cultural Feast,151.129628,-33.738909,Style,Paddington,3,15
+44,Film Screenings Event #44,Flicks & Food,150.95771,-33.994284,Film,Sydney Opera House,3,10
+45,Street Food Event #45,Snap & Stroll,151.082268,-33.784891,Street Food,Balmain,3,8
+46,Film Event #46,Thrill Seeker's Delight,150.8054,-33.749354,Film,Glebe,3,4
+47,Surfing Event #47,Zen Vibes Only,150.886779,-33.936215,Adventure,Bondi Beach,3,5
+48,Street Food Event #48,Creative Carnival,150.870774,-33.983808,Street Food,Circular Quay,3,12
+49,Music Event #49,Thrill Seeker's Delight,150.854468,-33.872224,Music,Newtown,3,14
+50,Running Event #50,Jazz & Jive,150.86027,-33.85645,Running,Coogee,3,8
+51,Thrifting Event #51,Vintage Vibes,150.942929,-33.755054,Thrifting,Newtown,3,5
+52,Thrifting Event #52,Snap & Stroll,150.87372,-33.766668,Thrifting,Paddington,3,6
+53,Photography Event #53,Vintage Vibes,150.833983,-33.828505,Visual Arts,The Rocks,3,10
+54,Music Event #54,Creative Carnival,151.244466,-33.81626,Music,Balmain,3,10
+55,Hiking Event #55,Sunset Soirée,150.777938,-33.72346,Hiking,Manly,3,7
+56,Music Event #56,Snap & Stroll,150.675005,-33.777855,Music,Pyrmont,3,13
+57,Visual Arts Event #57,Cultural Feast,150.854215,-33.713089,Visual Arts,Surry Hills,3,12
+58,Visual Arts Event #58,Creative Carnival,151.122287,-33.79264,Visual Arts,Darling Harbour,3,11
+59,Hiking Event #59,Snap & Stroll,150.691504,-33.88998,Hiking,Coogee,3,14
+60,Hiking Event #60,Creative Carnival,150.88167,-33.938807,Hiking,Manly,3,5
+61,Music Event #61,Jazz & Jive,150.928964,-33.763978,Music,Pyrmont,3,14
+62,Style Event #62,Laugh & Learn,151.26397,-33.921858,Style,Paddington,3,5
+63,Photography Event #63,DIY Decor,151.121149,-33.959222,Visual Arts,The Rocks,3,10
+64,Film Event #64,Laugh & Learn,151.044097,-33.917998,Film,Glebe,3,8
+65,Dining Event #65,Art Attack,151.080888,-33.801982,Dining,Barangaroo,3,10
+66,History Walks Event #66,Art Attack,150.731826,-33.837424,Hiking,The Rocks,3,12
+67,History Walks Event #67,Chill & Grill,151.196704,-33.967045,Hiking,The Rocks,3,12
+68,Books Event #68,Thrill Seeker's Delight,151.151334,-33.850721,Books,Glebe,3,5
+69,Books Event #69,Chill & Grill,150.631741,-33.744194,Books,Glebe,3,15
+70,Books Event #70,Jazz & Jive,150.985756,-33.910392,Books,Glebe,3,3
+71,Thrifting Event #71,Snap & Stroll,151.193091,-33.982641,Thrifting,Newtown,3,6
+72,Street Food Event #72,Jazz & Jive,151.114789,-33.720774,Street Food,The Rocks,3,7
+73,Music Event #73,Eco-Explorer,151.050009,-33.705448,Music,Pyrmont,3,3
+74,Adventure Event #74,Eco-Explorer,151.294538,-33.714995,Adventure,Barangaroo,3,9
+75,Literature & Writing Event #75,Write On!,150.752381,-33.940029,Literature & Writing,Glebe,3,12
+76,Running Event #76,Laugh & Learn,150.856869,-33.772567,Running,Bondi Beach,3,3
+77,Running Event #77,Write On!,150.911785,-33.910433,Running,Barangaroo,3,7
+78,Running Event #78,Mindful Moments,150.720116,-33.716526,Running,Barangaroo,3,8
+79,Music Event #79,Creative Carnival,150.944934,-33.726372,Music,Circular Quay,3,9
+80,Music Event #80,Eco-Explorer,150.611536,-33.948294,Music,Chippendale,3,9
+81,Music Event #81,Laugh & Learn,150.932361,-33.788073,Music,Newtown,3,4
+82,Music Event #82,Flicks & Food,150.830451,-33.90363,Music,Balmain,3,4
+83,Music Event #83,Mindful Moments,150.923928,-33.825666,Music,Darling Harbour,3,6
+84,Music Event #84,Eco-Explorer,151.004271,-33.99566,Music,Darling Harbour,3,14
+85,Music Event #85,Art Attack,150.944023,-33.887832,Music,Newtown,3,4
+86,Music Event #86,Creative Carnival,151.172555,-33.795135,Music,Balmain,3,13
+87,Music Event #87,Thrill Seeker's Delight,151.051918,-33.924789,Music,Circular Quay,3,6
+88,Music Event #88,Cultural Feast,151.201022,-33.857862,Music,Darling Harbour,3,4
+89,Visual Arts Event #89,Flicks & Food,151.038022,-33.757585,Visual Arts,Royal Botanic Garden,3,5
+90,Workshops Event #90,Mindful Moments,151.224146,-33.873707,Workshops,Pyrmont,3,3
+91,Thrifting Event #91,Sunset Soirée,150.988063,-33.826727,Thrifting,Paddington,3,13
+92,Thrifting Event #92,Thrill Seeker's Delight,151.000052,-33.982313,Thrifting,Glebe,3,9
+93,Thrifting Event #93,Jazz & Jive,151.105041,-33.979753,Thrifting,Surry Hills,3,6
+94,Film Event #94,Creative Carnival,150.870619,-33.857256,Film,Circular Quay,3,7
+95,Thrifting Event #95,Vintage Vibes,150.636891,-33.759919,Thrifting,Paddington,3,7
+96,Thrifting Event #96,Jazz & Jive,150.868614,-33.96051,Thrifting,Paddington,3,14
+97,Thrifting Event #97,Zen Vibes Only,151.249841,-33.775565,Thrifting,Paddington,3,7
+98,Street Food Event #98,Thrill Seeker's Delight,151.250841,-33.765136,Street Food,Pyrmont,3,11
+99,Style Event #99,Mindful Moments,150.985525,-33.946495,Style,Paddington,3,10
+100,Surfing Event #100,Vintage Vibes,150.653486,-33.919239,Adventure,Bondi Beach,3,12
+101,Street Food Event #101,Street Eats & Beats,150.978077,-33.742407,Street Food,The Rocks,3,6
+102,Street Food Event #102,Creative Carnival,150.886264,-33.828555,Street Food,The Rocks,3,13
+103,Thrifting Event #103,Jazz & Jive,151.084891,-33.829474,Thrifting,Glebe,3,11
+104,Workshops Event #104,Thrill Seeker's Delight,150.940306,-33.773756,Workshops,Chippendale,3,14
+105,Surfing Event #105,Creative Carnival,151.248675,-33.97108,Adventure,Bondi Beach,3,5
+106,Street Art Event #106,Chill & Grill,150.680913,-33.859981,Visual Arts,Newtown,3,15
+107,Dining Event #107,Cultural Feast,151.29915,-33.926804,Dining,Darling Harbour,3,5
+108,Music Event #108,Cultural Feast,151.09725,-33.73564,Music,Newtown,3,13
+109,Dining Event #109,Art Attack,150.985827,-33.949991,Dining,Darling Harbour,3,11
+110,Dining Event #110,Zen Vibes Only,151.044317,-33.83347,Dining,Darling Harbour,3,8
+111,Literature & Writing Event #111,Write On!,151.131061,-33.730757,Literature & Writing,Glebe,3,15
+112,Thrifting Event #112,Zen Vibes Only,151.222985,-33.739456,Thrifting,Surry Hills,3,10
+113,Thrifting Event #113,Eco-Explorer,151.289599,-33.756163,Thrifting,Glebe,3,5
+114,Thrifting Event #114,Street Eats & Beats,150.982785,-33.962024,Thrifting,Newtown,3,4
+115,Cooking Event #115,Chill & Grill,151.250558,-33.830409,Cooking,Balmain,3,6
+116,Beach Volleyball Event #116,Thrill Seeker's Delight,150.868429,-33.944649,Volleyball,Coogee,6,14
+117,Music Event #117,Zen Vibes Only,150.652702,-33.942899,Music,Sydney Opera House,3,3
+118,Literature & Writing Event #118,Chill & Grill,150.926306,-33.79267,Literature & Writing,Glebe,3,13
+119,Gardening Event #119,Mindful Moments,151.074397,-33.882738,Gardening,Royal Botanic Garden,3,13
+120,Street Art Event #120,Chill & Grill,150.609524,-33.92434,Visual Arts,Newtown,3,12
+121,Dining Event #121,Write On!,150.777916,-33.9289,Dining,Darling Harbour,3,12
+122,Beach Volleyball Event #122,Chill & Grill,151.267938,-33.856346,Volleyball,Coogee,6,14
+123,Street Food Event #123,Vintage Vibes,150.791901,-33.738277,Street Food,Pyrmont,3,8
+124,Street Food Event #124,Zen Vibes Only,151.162394,-33.739508,Street Food,Circular Quay,3,10
+125,Wildlife Watching Event #125,Cultural Feast,151.111594,-33.738475,Wildlife,Bondi Beach,3,4
+126,Photography Event #126,Sunset Soirée,151.003795,-33.704765,Visual Arts,The Rocks,3,15
+127,Visual Arts Event #127,Snap & Stroll,151.180958,-33.929247,Visual Arts,Royal Botanic Garden,3,3
+128,Literature & Writing Event #128,Cultural Feast,151.068243,-33.987891,Literature & Writing,Glebe,3,7
+129,Street Food Event #129,Laugh & Learn,150.703717,-33.807706,Street Food,Circular Quay,3,13
+130,Street Food Event #130,Write On!,150.632847,-33.975398,Street Food,Circular Quay,3,9
+131,Visual Arts Event #131,Snap & Stroll,150.673831,-33.85881,Visual Arts,Royal Botanic Garden,3,15
+132,Visual Arts Event #132,Cultural Feast,150.789922,-33.706359,Visual Arts,Surry Hills,3,4
+133,Film Event #133,Mindful Moments,150.930493,-33.800832,Film,Circular Quay,3,5
+134,Street Food Event #134,Creative Carnival,150.62028,-33.763852,Street Food,Pyrmont,3,6
+135,Wildlife Event #135,Flicks & Food,151.20221,-33.875417,Wildlife,Royal Botanic Garden,3,8
+136,Workshops Event #136,Flicks & Food,151.009086,-33.81835,Workshops,Pyrmont,3,12
+137,Hiking Event #137,Eco-Explorer,151.053813,-33.830658,Hiking,Manly,3,10
+138,Beach Volleyball Event #138,Taste of Sydney,150.811914,-33.893033,Volleyball,Bondi Beach,6,14
+139,Gardening Event #139,Art Attack,150.671387,-33.836263,Gardening,Balmain,3,5
+140,Home Decor Event #140,Zen Vibes Only,150.730191,-33.813274,Home Decor,Paddington,3,8
+141,Hiking Event #141,Snap & Stroll,150.884884,-33.949682,Hiking,Manly,3,3
+142,Music Event #142,Art Attack,151.210435,-33.925465,Music,Darling Harbour,3,9
+143,Music Event #143,Laugh & Learn,151.204224,-33.851056,Music,Balmain,3,14
+144,Thrifting Event #144,Flicks & Food,150.843053,-33.906069,Thrifting,Surry Hills,3,12
+145,Cooking Event #145,Jazz & Jive,151.163956,-33.925447,Cooking,Balmain,3,8
+146,Street Food Event #146,Art Attack,150.728044,-33.711175,Street Food,Pyrmont,3,12
+147,Thrifting Event #147,Write On!,151.124154,-33.796328,Thrifting,Newtown,3,4
+148,Wildlife Event #148,Laugh & Learn,151.183285,-33.784136,Wildlife,Royal Botanic Garden,3,4
+149,Wildlife Event #149,DIY Decor,151.005085,-33.971844,Wildlife,Royal Botanic Garden,3,3
+150,Performing Arts Event #150,Jazz & Jive,150.936013,-33.788403,Performing Arts,Sydney Opera House,3,5
+151,Hiking Event #151,Sunset Soirée,150.680963,-33.76479,Hiking,Manly,3,15
+152,Dining Event #152,DIY Decor,151.278642,-33.755579,Dining,Darling Harbour,3,4
+153,Books Event #153,Laugh & Learn,150.687011,-33.906728,Books,Glebe,3,4
+154,Music Event #154,Eco-Explorer,150.673468,-33.864927,Music,Pyrmont,3,12
+155,Music Event #155,DIY Decor,151.281151,-33.807802,Music,Darling Harbour,3,5
+156,Street Food Event #156,Cultural Feast,150.66169,-33.805064,Street Food,The Rocks,3,11
+157,Street Food Event #157,Write On!,150.671495,-33.840762,Street Food,Darling Harbour,3,3
+158,Visual Arts Event #158,Street Eats & Beats,151.243931,-33.727636,Visual Arts,Chippendale,3,8
+159,Visual Arts Event #159,Art Attack,150.884603,-33.791967,Visual Arts,Surry Hills,3,4
+160,Workshops Event #160,Sunset Soirée,151.079525,-33.787233,Workshops,Pyrmont,3,8
+161,Beach Volleyball Event #161,Chill & Grill,150.697325,-33.883364,Volleyball,Coogee,6,14
+162,Film Screenings Event #162,Laugh & Learn,150.707614,-33.858652,Film,Sydney Opera House,3,15
+163,Dining Event #163,Mindful Moments,150.793081,-33.843461,Dining,Circular Quay,3,10
+164,Music Event #164,Thrill Seeker's Delight,151.183105,-33.749069,Music,Chippendale,3,9
+165,Music Event #165,Snap & Stroll,150.928941,-33.829186,Music,Balmain,3,13
+166,Street Food Event #166,Thrill Seeker's Delight,150.810207,-33.996046,Street Food,Barangaroo,3,8
+167,Running Event #167,Laugh & Learn,151.277642,-33.819385,Running,Royal Botanic Garden,3,8
+168,Street Food Event #168,Write On!,150.842465,-33.891127,Street Food,The Rocks,3,3
+169,Performing Arts Event #169,Jazz & Jive,150.68908,-33.756417,Performing Arts,Sydney Opera House,3,3
+170,Performing Arts Event #170,Taste of Sydney,151.137124,-33.917194,Performing Arts,Sydney Opera House,3,9
+171,Street Food Event #171,Flicks & Food,151.259505,-33.797993,Street Food,The Rocks,3,14
+172,Style Event #172,Snap & Stroll,151.206984,-33.760589,Style,Paddington,3,5
+173,Thrifting Event #173,Eco-Explorer,151.20574,-33.884646,Thrifting,Newtown,3,10
+174,Thrifting Event #174,Eco-Explorer,151.060064,-33.962758,Thrifting,Glebe,3,7
+175,Workshops Event #175,Jazz & Jive,151.271405,-33.965515,Workshops,Chippendale,3,8
+176,Hiking Event #176,Flicks & Food,150.647765,-33.978314,Hiking,Coogee,3,6
+177,Music Event #177,Flicks & Food,151.289711,-33.813208,Music,Sydney Opera House,3,12
+178,Wildlife Watching Event #178,Art Attack,151.035063,-33.797332,Wildlife,Bondi Beach,3,13
+179,Street Food Event #179,Cultural Feast,150.769811,-33.816524,Street Food,The Rocks,3,3
+180,Beach Volleyball Event #180,Creative Carnival,150.953525,-33.916061,Volleyball,Bondi Beach,6,14
+181,Dining Event #181,Chill & Grill,151.257599,-33.786058,Dining,Darling Harbour,3,9
+182,Street Food Event #182,Thrill Seeker's Delight,151.254681,-33.735955,Street Food,The Rocks,3,13
+183,Street Food Event #183,Jazz & Jive,151.188463,-33.76275,Street Food,Pyrmont,3,13
+184,Thrifting Event #184,Sunset Soirée,151.101031,-33.829647,Thrifting,Surry Hills,3,10
+185,Visual Arts Event #185,Mindful Moments,150.734268,-33.802362,Visual Arts,Darling Harbour,3,10
+186,Hiking Event #186,Vintage Vibes,151.177704,-33.850717,Hiking,Manly,3,7
+187,Workshops Event #187,Vintage Vibes,151.096974,-33.922481,Workshops,Newtown,3,10
+188,Surfing Event #188,Cultural Feast,151.136023,-33.962635,Adventure,Bondi Beach,3,5
+189,Film Screenings Event #189,Sunset Soirée,151.079099,-33.88956,Film,Newtown,3,14
+190,Style Event #190,Vintage Vibes,151.218115,-33.90728,Style,Paddington,3,9
+191,Surfing Event #191,Street Eats & Beats,151.057224,-33.958488,Adventure,Coogee,3,3
+192,Dining Event #192,Zen Vibes Only,151.075953,-33.715207,Dining,Barangaroo,3,5
+193,Literature & Writing Event #193,Taste of Sydney,150.868744,-33.812292,Literature & Writing,Glebe,3,5
+194,Music Event #194,Write On!,150.636296,-33.836765,Music,Darling Harbour,3,13
+195,Music Event #195,Creative Carnival,150.660282,-33.741594,Music,Pyrmont,3,13
+196,Literature & Writing Event #196,Creative Carnival,150.736873,-33.851484,Literature & Writing,Glebe,3,13
+197,Beach Soccer Event #197,Eco-Explorer,151.027618,-33.863357,Soccer,Manly,6,14
+198,Thrifting Event #198,Jazz & Jive,150.952345,-33.938808,Thrifting,Paddington,3,9
+199,Workshops Event #199,Mindful Moments,151.007476,-33.938512,Workshops,Chippendale,3,15
+200,Style Event #200,Creative Carnival,151.274979,-33.995745,Style,Surry Hills,3,11
+201,Style Event #201,Thrill Seeker's Delight,151.18663,-33.982731,Style,Surry Hills,3,10
+202,Gardening Event #202,Creative Carnival,150.973182,-33.876248,Gardening,Royal Botanic Garden,3,12
+203,Beach Soccer Event #203,Flicks & Food,151.227557,-33.708975,Soccer,Manly,6,14
+204,Running Event #204,Vintage Vibes,150.91277,-33.910844,Running,Coogee,3,6
+205,Film Event #205,Eco-Explorer,150.74029,-33.962328,Film,Glebe,3,14
+206,Film Event #206,DIY Decor,151.031925,-33.998558,Film,Glebe,3,10
+207,Style Event #207,Thrill Seeker's Delight,150.940784,-33.838167,Style,Paddington,3,6
+208,Style Event #208,Mindful Moments,150.730644,-33.784839,Style,Paddington,3,4
+209,Film Screenings Event #209,Jazz & Jive,151.291459,-33.718544,Film,Newtown,3,14
+210,Film Event #210,Cultural Feast,150.810809,-33.826178,Film,Glebe,3,8
+211,Thrifting Event #211,Zen Vibes Only,150.681312,-33.986296,Thrifting,Paddington,3,11
+212,Dining Event #212,Flicks & Food,151.224891,-33.972987,Dining,Circular Quay,3,14
+213,Dining Event #213,Vintage Vibes,151.178084,-33.726833,Dining,Darling Harbour,3,4
+214,Workshops Event #214,Vintage Vibes,150.930919,-33.867714,Workshops,Chippendale,3,8
+215,Music Event #215,Eco-Explorer,151.172433,-33.734098,Music,Sydney Opera House,3,10
+216,Music Event #216,Mindful Moments,151.239309,-33.851083,Music,Circular Quay,3,15
+217,Hiking Event #217,Street Eats & Beats,150.860649,-33.924787,Hiking,Manly,3,3
+218,Performing Arts Event #218,Art Attack,150.906916,-33.93384,Performing Arts,Sydney Opera House,3,6
+219,Street Food Event #219,Write On!,150.76861,-33.773325,Street Food,Circular Quay,3,13
+220,Street Food Event #220,Street Eats & Beats,151.019794,-33.861158,Street Food,Pyrmont,3,5
+221,Visual Arts Event #221,DIY Decor,150.701599,-33.827927,Visual Arts,Royal Botanic Garden,3,3
+222,Cycling Event #222,Chill & Grill,151.251989,-33.869599,Cycling,Manly,3,15
+223,Cooking Event #223,Zen Vibes Only,150.930444,-33.828143,Cooking,Balmain,3,12
+224,Running Event #224,Write On!,151.217581,-33.814873,Running,Bondi Beach,3,8
+225,Visual Arts Event #225,Cultural Feast,151.072365,-33.860502,Visual Arts,Paddington,3,3
+226,Books Event #226,Sunset Soirée,150.611729,-33.892023,Books,Glebe,3,5
+227,Street Food Event #227,Street Eats & Beats,150.722593,-33.953478,Street Food,Balmain,3,9
+228,Street Food Event #228,Chill & Grill,150.610107,-33.995353,Street Food,Balmain,3,12
+229,Street Food Event #229,Creative Carnival,150.738738,-33.813639,Street Food,Darling Harbour,3,14
+230,Workshops Event #230,Zen Vibes Only,150.956999,-33.809429,Workshops,Chippendale,3,3
+231,Workshops Event #231,Mindful Moments,151.259295,-33.796723,Workshops,Newtown,3,8
+232,Surfing Event #232,Cultural Feast,150.628746,-33.987954,Adventure,Bondi Beach,3,9
+233,Street Food Event #233,Street Eats & Beats,150.793292,-33.876363,Street Food,Barangaroo,3,6
+234,Style Event #234,Laugh & Learn,151.050953,-33.785523,Style,Paddington,3,13
+235,Street Food Event #235,Zen Vibes Only,150.997603,-33.781247,Street Food,Pyrmont,3,9
+236,Running Event #236,Chill & Grill,150.945329,-33.917242,Running,Coogee,3,12
+237,Running Event #237,Laugh & Learn,150.82061,-33.955076,Running,Coogee,3,3
+238,Running Event #238,Chill & Grill,150.906334,-33.843728,Running,Coogee,3,13
+239,Thrifting Event #239,Eco-Explorer,150.752364,-33.804918,Thrifting,Newtown,3,14
+240,Beach Soccer Event #240,Mindful Moments,151.193569,-33.980552,Soccer,Manly,6,14
+241,Cooking Event #241,Write On!,150.778376,-33.767051,Cooking,Surry Hills,3,13
+242,Beach Volleyball Event #242,Write On!,151.010807,-33.823226,Volleyball,Bondi Beach,6,14
+243,Dining Event #243,Sunset Soirée,151.095156,-33.912349,Dining,Barangaroo,3,9
+244,Music Event #244,Laugh & Learn,151.196915,-33.734315,Music,Sydney Opera House,3,12
+245,Music Event #245,Creative Carnival,150.923895,-33.855158,Music,Darling Harbour,3,4
+246,Running Event #246,DIY Decor,150.981852,-33.830983,Running,Coogee,3,15
+247,Music Event #247,Snap & Stroll,151.269891,-33.755473,Music,Chippendale,3,11
+248,Music Event #248,Sunset Soirée,150.613663,-33.817522,Music,Sydney Opera House,3,15
+249,Wildlife Watching Event #249,Zen Vibes Only,150.658619,-33.969034,Wildlife,Bondi Beach,3,11
+250,Thrifting Event #250,Zen Vibes Only,150.816316,-33.942956,Thrifting,Glebe,3,8
+251,Thrifting Event #251,Snap & Stroll,150.812967,-33.717737,Thrifting,Glebe,3,13
+252,Street Food Event #252,Chill & Grill,150.684502,-33.726353,Street Food,Balmain,3,4
+253,Wildlife Event #253,Zen Vibes Only,151.185171,-33.817566,Wildlife,Royal Botanic Garden,3,10
+254,Hiking Event #254,Jazz & Jive,151.063775,-33.922401,Hiking,Manly,3,6
+255,Music Event #255,Write On!,151.020274,-33.914542,Music,Pyrmont,3,12
+256,Music Event #256,Thrill Seeker's Delight,151.034643,-33.821695,Music,Chippendale,3,11
+257,Beach Volleyball Event #257,Jazz & Jive,150.605726,-33.877864,Volleyball,Bondi Beach,6,14
+258,Workshops Event #258,Eco-Explorer,151.269801,-33.894815,Workshops,Newtown,3,15
+259,Dining Event #259,Cultural Feast,151.010121,-33.975413,Dining,Barangaroo,3,14
+260,Thrifting Event #260,Thrill Seeker's Delight,150.995863,-33.939148,Thrifting,Glebe,3,5
+261,Music Event #261,Sunset Soirée,150.946367,-33.89523,Music,Darling Harbour,3,11
+262,Music Event #262,Taste of Sydney,151.281259,-33.937396,Music,Balmain,3,13
+263,Music Event #263,Thrill Seeker's Delight,151.07514,-33.792928,Music,Pyrmont,3,14
+264,Music Event #264,Art Attack,150.734203,-33.814569,Music,Balmain,3,10
+265,Beach Volleyball Event #265,Taste of Sydney,150.844563,-33.79846,Volleyball,Coogee,6,14
+266,Dining Event #266,Chill & Grill,150.69057,-33.809986,Dining,Darling Harbour,3,7
+267,Dining Event #267,Snap & Stroll,151.242384,-33.988575,Dining,Barangaroo,3,10
+268,Visual Arts Event #268,Jazz & Jive,150.908601,-33.780163,Visual Arts,Surry Hills,3,14
+269,Wildlife Watching Event #269,Sunset Soirée,151.224033,-33.977529,Wildlife,Bondi Beach,3,7
+270,Home Decor Event #270,Sunset Soirée,150.991924,-33.939815,Home Decor,Paddington,3,5
+271,Photography Event #271,Laugh & Learn,151.155305,-33.896957,Visual Arts,The Rocks,3,5
+272,Running Event #272,DIY Decor,150.984771,-33.959115,Running,Royal Botanic Garden,3,4
+273,Workshops Event #273,Flicks & Food,150.966728,-33.713093,Workshops,Newtown,3,15
+274,Film Event #274,Taste of Sydney,150.672846,-33.949851,Film,Circular Quay,3,11
+275,Film Event #275,Write On!,150.617134,-33.939539,Film,Glebe,3,9
+276,Music Event #276,Street Eats & Beats,150.968606,-33.987246,Music,Balmain,3,12
+277,Hiking Event #277,Laugh & Learn,150.751621,-33.738382,Hiking,Manly,3,3
+278,Visual Arts Event #278,Snap & Stroll,150.724447,-33.704762,Visual Arts,Darling Harbour,3,12
+279,Workshops Event #279,Street Eats & Beats,151.204476,-33.753076,Workshops,Newtown,3,4
+280,Style Event #280,Laugh & Learn,150.872834,-33.898718,Style,Surry Hills,3,15
+281,Style Event #281,Mindful Moments,151.100928,-33.989881,Style,Surry Hills,3,4
+282,Music Event #282,Art Attack,151.205182,-33.748539,Music,Sydney Opera House,3,5
+283,Music Event #283,Laugh & Learn,151.11833,-33.947072,Music,Circular Quay,3,6
+284,Music Event #284,Zen Vibes Only,150.779184,-33.752276,Music,Newtown,3,15
+285,Music Event #285,Laugh & Learn,150.737042,-33.736241,Music,Circular Quay,3,13
+286,Music Event #286,Sunset Soirée,150.741669,-33.867924,Music,Chippendale,3,10
+287,Cycling Event #287,Creative Carnival,151.009935,-33.809321,Cycling,Manly,3,5
+288,Thrifting Event #288,Thrill Seeker's Delight,151.045928,-33.740664,Thrifting,Paddington,3,12
+289,Books Event #289,Street Eats & Beats,151.139664,-33.996283,Books,Glebe,3,12
+290,Gardening Event #290,Laugh & Learn,151.019534,-33.780132,Gardening,Pyrmont,3,8
+291,Street Food Event #291,Eco-Explorer,150.852548,-33.855458,Street Food,Circular Quay,3,5
+292,Street Food Event #292,Write On!,151.00866,-33.839576,Street Food,Circular Quay,3,11
+293,Visual Arts Event #293,Cultural Feast,151.018822,-33.971644,Visual Arts,Chippendale,3,14
+294,Visual Arts Event #294,Laugh & Learn,151.142623,-33.937759,Visual Arts,Darling Harbour,3,14
+295,Surfing Event #295,Chill & Grill,151.189674,-33.995638,Adventure,Coogee,3,6
+296,Running Event #296,Snap & Stroll,151.239383,-33.710393,Running,Barangaroo,3,14
+297,Street Food Event #297,Sunset Soirée,150.779506,-33.917539,Street Food,Manly,3,14
+298,Performing Arts Event #298,Sunset Soirée,151.264501,-33.758459,Performing Arts,Sydney Opera House,3,5
+299,Music Event #299,Flicks & Food,150.769801,-33.877778,Music,Chippendale,3,8
+300,Music Event #300,Eco-Explorer,150.916924,-33.761937,Music,Circular Quay,3,11
+301,Film Event #301,Cultural Feast,150.703302,-33.835643,Film,Glebe,3,3
+302,Running Event #302,Eco-Explorer,150.629371,-33.753745,Running,Royal Botanic Garden,3,4
+303,Thrifting Event #303,Taste of Sydney,151.004251,-33.703899,Thrifting,Paddington,3,15
+304,Cooking Event #304,Street Eats & Beats,150.752177,-33.850868,Cooking,Balmain,3,13
+305,Film Screenings Event #305,Zen Vibes Only,150.726799,-33.906216,Film,Newtown,3,15
+306,Music Event #306,Sunset Soirée,151.034638,-33.788657,Music,Darling Harbour,3,9
+307,Film Screenings Event #307,Art Attack,150.991239,-33.702385,Film,Newtown,3,10
+308,Hiking Event #308,Cultural Feast,150.991786,-33.825605,Hiking,Coogee,3,5
+309,Cooking Event #309,Mindful Moments,151.066681,-33.897251,Cooking,Balmain,3,8
+310,Street Food Event #310,Zen Vibes Only,150.658611,-33.933783,Street Food,Pyrmont,3,11
+311,Film Event #311,Mindful Moments,150.82319,-33.936372,Film,Glebe,3,10
+312,Beach Volleyball Event #312,Flicks & Food,150.774086,-33.730147,Volleyball,Coogee,6,14
+313,Film Event #313,Creative Carnival,151.211836,-33.86324,Film,Glebe,3,7
+314,Film Event #314,Cultural Feast,151.004395,-33.845709,Film,Circular Quay,3,6
+315,Thrifting Event #315,Mindful Moments,150.904553,-33.813349,Thrifting,Newtown,3,9
+316,Visual Arts Event #316,Flicks & Food,150.89336,-33.729193,Visual Arts,Chippendale,3,10
+317,Visual Arts Event #317,Zen Vibes Only,150.923874,-33.854968,Visual Arts,Surry Hills,3,6
+318,History Walks Event #318,Write On!,150.602758,-33.993632,Hiking,The Rocks,3,14
+319,Beach Volleyball Event #319,Eco-Explorer,151.115826,-33.969611,Volleyball,Coogee,6,14
+320,Thrifting Event #320,Vintage Vibes,151.276491,-33.75746,Thrifting,Surry Hills,3,8
+321,Visual Arts Event #321,Street Eats & Beats,150.622218,-33.946017,Visual Arts,Royal Botanic Garden,3,7
+322,History Walks Event #322,Vintage Vibes,150.98294,-33.712835,Hiking,The Rocks,3,3
+323,Visual Arts Event #323,Thrill Seeker's Delight,151.040405,-33.74687,Visual Arts,Darling Harbour,3,3
+324,Music Event #324,Write On!,150.972936,-33.766441,Music,Balmain,3,3
+325,Style Event #325,Chill & Grill,150.614876,-33.753055,Style,Surry Hills,3,4
+326,Photography Event #326,Zen Vibes Only,151.269443,-33.854239,Visual Arts,The Rocks,3,12
+327,Performing Arts Event #327,Vintage Vibes,150.886345,-33.799977,Performing Arts,Sydney Opera House,3,6
+328,Performing Arts Event #328,Creative Carnival,150.897581,-33.879709,Performing Arts,Sydney Opera House,3,10
+329,Street Food Event #329,Art Attack,151.233186,-33.749789,Street Food,Balmain,3,4
+330,Running Event #330,Creative Carnival,150.900009,-33.970504,Running,Royal Botanic Garden,3,7
+331,Street Food Event #331,Mindful Moments,151.280609,-33.936141,Street Food,Manly,3,8
+332,Style Event #332,Thrill Seeker's Delight,150.769605,-33.887582,Style,Surry Hills,3,3
+333,Music Event #333,Cultural Feast,151.271198,-33.722868,Music,Chippendale,3,9
+334,Music Event #334,Vintage Vibes,150.956104,-33.875848,Music,Darling Harbour,3,4
+335,Music Event #335,DIY Decor,150.936432,-33.895587,Music,Darling Harbour,3,15
+336,Visual Arts Event #336,Flicks & Food,151.242102,-33.895047,Visual Arts,Paddington,3,14
+337,Street Food Event #337,Creative Carnival,151.260081,-33.876014,Street Food,Pyrmont,3,10
+338,Visual Arts Event #338,Flicks & Food,150.682378,-33.93158,Visual Arts,Surry Hills,3,12
+339,Workshops Event #339,Creative Carnival,150.760561,-33.843884,Workshops,Newtown,3,7
+340,Gardening Event #340,Street Eats & Beats,151.013666,-33.845258,Gardening,Balmain,3,9
+341,Visual Arts Event #341,Art Attack,151.000332,-33.818311,Visual Arts,Chippendale,3,14
+342,Gardening Event #342,Flicks & Food,150.913676,-33.864875,Gardening,Pyrmont,3,4
+343,Home Decor Event #343,Street Eats & Beats,151.24699,-33.992308,Home Decor,Paddington,3,14
+344,Street Food Event #344,Snap & Stroll,150.982658,-33.756668,Street Food,Darling Harbour,3,6
+345,Gardening Event #345,Eco-Explorer,150.857032,-33.82124,Gardening,Royal Botanic Garden,3,12
+346,Street Food Event #346,Snap & Stroll,151.158033,-33.884147,Street Food,The Rocks,3,3
+347,Street Food Event #347,Snap & Stroll,150.6092,-33.953461,Street Food,Circular Quay,3,6
+348,Books Event #348,Snap & Stroll,151.282961,-33.860335,Books,Glebe,3,6
+349,Style Event #349,Jazz & Jive,150.79878,-33.877527,Style,Surry Hills,3,5
+350,Music Event #350,DIY Decor,151.006427,-33.970629,Music,Balmain,3,10
+351,Beach Soccer Event #351,Zen Vibes Only,150.796147,-33.707976,Soccer,Manly,6,14
+352,Visual Arts Event #352,DIY Decor,150.882778,-33.820811,Visual Arts,Surry Hills,3,12
+353,Street Food Event #353,Snap & Stroll,151.227303,-33.908173,Street Food,Barangaroo,3,13
+354,Film Screenings Event #354,Creative Carnival,150.702685,-33.814073,Film,Newtown,3,10
+355,Gardening Event #355,Snap & Stroll,151.047552,-33.708202,Gardening,Royal Botanic Garden,3,13
+356,Visual Arts Event #356,Taste of Sydney,151.119656,-33.777378,Visual Arts,Surry Hills,3,7
+357,Visual Arts Event #357,Eco-Explorer,150.825407,-33.851954,Visual Arts,Chippendale,3,6
+358,Running Event #358,Taste of Sydney,151.197609,-33.771979,Running,Bondi Beach,3,15
+359,Street Art Event #359,Eco-Explorer,150.807082,-33.820467,Visual Arts,Newtown,3,6
+360,Film Screenings Event #360,Thrill Seeker's Delight,150.9911,-33.775501,Film,Sydney Opera House,3,8
+361,Cycling Event #361,Art Attack,151.156806,-33.953708,Cycling,Manly,3,6
+362,Music Event #362,Chill & Grill,150.913056,-33.974558,Music,Darling Harbour,3,3
+363,Music Event #363,Eco-Explorer,150.739222,-33.769089,Music,Darling Harbour,3,5
+364,Music Event #364,Eco-Explorer,150.71281,-33.787219,Music,Darling Harbour,3,5
+365,Music Event #365,DIY Decor,150.745298,-33.765282,Music,Chippendale,3,14
+366,Music Event #366,Flicks & Food,150.79097,-33.835078,Music,Pyrmont,3,8
+367,Dining Event #367,DIY Decor,151.286952,-33.909455,Dining,Barangaroo,3,13
+368,Photography Event #368,Zen Vibes Only,150.837125,-33.849663,Visual Arts,The Rocks,3,7
+369,Dining Event #369,Street Eats & Beats,151.123236,-33.831546,Dining,Circular Quay,3,11
+370,Dining Event #370,Creative Carnival,150.848002,-33.778726,Dining,Darling Harbour,3,9
+371,Cycling Event #371,Art Attack,150.704354,-33.833583,Cycling,Manly,3,14
+372,Gardening Event #372,Sunset Soirée,150.829574,-33.782844,Gardening,Royal Botanic Garden,3,4
+373,Visual Arts Event #373,Cultural Feast,150.753878,-33.791245,Visual Arts,Darling Harbour,3,6
+374,Dining Event #374,DIY Decor,150.971306,-33.895803,Dining,Barangaroo,3,6
+375,Dining Event #375,Taste of Sydney,151.128511,-33.719456,Dining,Barangaroo,3,5
+376,Workshops Event #376,Mindful Moments,150.763313,-33.788824,Workshops,Pyrmont,3,13
+377,Workshops Event #377,Eco-Explorer,151.099266,-33.909165,Workshops,Chippendale,3,6
+378,Street Food Event #378,Art Attack,150.606434,-33.831477,Street Food,The Rocks,3,9
+379,Film Screenings Event #379,Flicks & Food,150.633676,-33.934089,Film,Sydney Opera House,3,12
+380,Thrifting Event #380,Mindful Moments,150.943719,-33.885575,Thrifting,Surry Hills,3,6
+381,Hiking Event #381,DIY Decor,150.719974,-33.889308,Hiking,Manly,3,10
+382,Performing Arts Event #382,Flicks & Food,150.753707,-33.885363,Performing Arts,Sydney Opera House,3,13
+383,Cooking Event #383,Taste of Sydney,151.178504,-33.99345,Cooking,Surry Hills,3,11
+384,Cooking Event #384,Vintage Vibes,151.140374,-33.794159,Cooking,Balmain,3,11
+385,Music Event #385,Thrill Seeker's Delight,150.734059,-33.733713,Music,Sydney Opera House,3,13
+386,Music Event #386,Zen Vibes Only,150.824366,-33.928553,Music,Chippendale,3,11
+387,History Walks Event #387,Snap & Stroll,150.771246,-33.761238,Hiking,The Rocks,3,8
+388,Film Event #388,Snap & Stroll,150.740998,-33.927669,Film,Circular Quay,3,5
+389,Film Event #389,Zen Vibes Only,150.755397,-33.909289,Film,Glebe,3,5
+390,Wildlife Event #390,Sunset Soirée,151.109693,-33.916327,Wildlife,Royal Botanic Garden,3,9
+391,Beach Volleyball Event #391,Sunset Soirée,151.086981,-33.850467,Volleyball,Bondi Beach,6,14
+392,Street Food Event #392,Street Eats & Beats,150.66625,-33.883799,Street Food,Darling Harbour,3,12
+393,Street Food Event #393,Street Eats & Beats,150.856669,-33.942073,Street Food,Barangaroo,3,10
+394,Street Food Event #394,Snap & Stroll,151.211599,-33.737121,Street Food,Barangaroo,3,9
+395,Street Art Event #395,Write On!,151.243697,-33.710992,Visual Arts,Newtown,3,5
+396,Gardening Event #396,Laugh & Learn,150.889968,-33.876533,Gardening,Royal Botanic Garden,3,15
+397,Wildlife Watching Event #397,Creative Carnival,150.799293,-33.962216,Wildlife,Bondi Beach,3,12
+398,Film Event #398,Snap & Stroll,151.035354,-33.883987,Film,Glebe,3,9
+399,Film Screenings Event #399,DIY Decor,151.275277,-33.852286,Film,Sydney Opera House,3,11
+400,Cycling Event #400,Art Attack,151.167934,-33.826852,Cycling,Manly,3,3
+401,Music Event #401,Flicks & Food,150.877887,-33.709511,Music,Balmain,3,9
+402,Music Event #402,Sunset Soirée,151.263925,-33.935295,Music,Darling Harbour,3,9
+403,Adventure Event #403,Thrill Seeker's Delight,151.185117,-33.702019,Adventure,Barangaroo,3,8
+404,Beach Volleyball Event #404,Mindful Moments,151.153165,-33.858293,Volleyball,Bondi Beach,6,14
+405,Street Food Event #405,Mindful Moments,150.664616,-33.974472,Street Food,Balmain,3,15
+406,Street Food Event #406,Snap & Stroll,151.246782,-33.778773,Street Food,Pyrmont,3,12
+407,Street Food Event #407,Zen Vibes Only,150.783653,-33.91886,Street Food,Barangaroo,3,14
+408,Street Food Event #408,Vintage Vibes,150.951016,-33.9646,Street Food,Balmain,3,7
+409,Beach Volleyball Event #409,Art Attack,150.994315,-33.855964,Volleyball,Bondi Beach,6,14
+410,Workshops Event #410,Zen Vibes Only,150.645261,-33.817838,Workshops,Chippendale,3,3
+411,Workshops Event #411,Jazz & Jive,151.010104,-33.74072,Workshops,Newtown,3,11
+412,Visual Arts Event #412,Snap & Stroll,150.615123,-33.989374,Visual Arts,Surry Hills,3,9
+413,Visual Arts Event #413,Mindful Moments,151.066588,-33.857508,Visual Arts,Royal Botanic Garden,3,12
+414,Workshops Event #414,Cultural Feast,150.931124,-33.932296,Workshops,Newtown,3,13
+415,Street Food Event #415,Snap & Stroll,151.272402,-33.816195,Street Food,The Rocks,3,9
+416,Surfing Event #416,Eco-Explorer,151.104846,-33.974972,Adventure,Bondi Beach,3,5
+417,Thrifting Event #417,Zen Vibes Only,150.917829,-33.766555,Thrifting,Surry Hills,3,14
+418,Music Event #418,Eco-Explorer,150.940873,-33.885269,Music,Darling Harbour,3,11
+419,Music Event #419,Mindful Moments,151.206695,-33.942131,Music,Newtown,3,6
+420,Music Event #420,Write On!,150.769927,-33.734542,Music,Sydney Opera House,3,3
+421,Style Event #421,Eco-Explorer,150.919804,-33.900084,Style,Surry Hills,3,10
+422,Dining Event #422,Creative Carnival,151.134022,-33.81439,Dining,Darling Harbour,3,4
+423,Thrifting Event #423,Eco-Explorer,150.651098,-33.93471,Thrifting,Glebe,3,9
+424,Photography Event #424,Jazz & Jive,150.871283,-33.801357,Visual Arts,The Rocks,3,11
+425,Thrifting Event #425,Snap & Stroll,151.080605,-33.908166,Thrifting,Surry Hills,3,3
+426,Thrifting Event #426,Laugh & Learn,150.750807,-33.718564,Thrifting,Glebe,3,7
+427,Film Event #427,Vintage Vibes,150.934964,-33.810228,Film,Circular Quay,3,14
+428,Beach Volleyball Event #428,Thrill Seeker's Delight,151.073948,-33.81299,Volleyball,Coogee,6,14
+429,History Walks Event #429,Thrill Seeker's Delight,150.755858,-33.961459,Hiking,The Rocks,3,11
+430,History Walks Event #430,Chill & Grill,150.949861,-33.93243,Hiking,The Rocks,3,13
+431,History Walks Event #431,Laugh & Learn,150.930054,-33.970933,Hiking,The Rocks,3,4
+432,Music Event #432,Art Attack,150.723858,-33.926776,Music,Chippendale,3,4
+433,Surfing Event #433,Jazz & Jive,151.148471,-33.869482,Adventure,Coogee,3,8
+434,Surfing Event #434,Zen Vibes Only,150.810195,-33.891763,Adventure,Bondi Beach,3,4
+435,Style Event #435,Chill & Grill,150.779615,-33.877419,Style,Surry Hills,3,9
+436,History Walks Event #436,Sunset Soirée,151.106287,-33.821135,Hiking,The Rocks,3,8
+437,Running Event #437,Eco-Explorer,151.040796,-33.996102,Running,Barangaroo,3,7
+438,Dining Event #438,Flicks & Food,150.62486,-33.805266,Dining,Circular Quay,3,13
+439,Music Event #439,Vintage Vibes,150.972916,-33.758032,Music,Balmain,3,4
+440,Music Event #440,Mindful Moments,151.29376,-33.742976,Music,Sydney Opera House,3,9
+441,Music Event #441,Cultural Feast,150.962914,-33.976606,Music,Pyrmont,3,12
+442,Music Event #442,Laugh & Learn,151.039935,-33.899491,Music,Pyrmont,3,14
+443,Hiking Event #443,Snap & Stroll,151.212323,-33.936413,Hiking,Manly,3,9
+444,Style Event #444,Street Eats & Beats,151.145485,-33.798707,Style,Paddington,3,13
+445,Music Event #445,Write On!,150.968668,-33.728995,Music,Newtown,3,12
+446,Music Event #446,Thrill Seeker's Delight,150.951887,-33.725513,Music,Chippendale,3,9
+447,Film Event #447,Snap & Stroll,151.02258,-33.837121,Film,Glebe,3,14
+448,Visual Arts Event #448,Eco-Explorer,150.686314,-33.796908,Visual Arts,Royal Botanic Garden,3,11
+449,Street Art Event #449,DIY Decor,151.014903,-33.751659,Visual Arts,Newtown,3,7
+450,Visual Arts Event #450,Sunset Soirée,150.850573,-33.801731,Visual Arts,Darling Harbour,3,7
+451,Thrifting Event #451,Mindful Moments,151.283924,-33.874629,Thrifting,Paddington,3,12
+452,Street Food Event #452,Sunset Soirée,151.006693,-33.815443,Street Food,Manly,3,4
+453,Street Food Event #453,Laugh & Learn,150.754888,-33.831661,Street Food,Pyrmont,3,10
+454,Running Event #454,Creative Carnival,150.966522,-33.766294,Running,Royal Botanic Garden,3,6
+455,Dining Event #455,Jazz & Jive,150.689648,-33.770569,Dining,Circular Quay,3,4
+456,Street Food Event #456,Write On!,150.767619,-33.76472,Street Food,The Rocks,3,13
+457,Style Event #457,Eco-Explorer,151.199522,-33.756925,Style,Surry Hills,3,5
+458,Thrifting Event #458,Flicks & Food,151.249004,-33.728493,Thrifting,Glebe,3,6
+459,Thrifting Event #459,Art Attack,151.170929,-33.963869,Thrifting,Newtown,3,9
+460,Street Food Event #460,DIY Decor,150.769962,-33.925854,Street Food,Barangaroo,3,6
+461,Street Food Event #461,Laugh & Learn,151.273399,-33.763258,Street Food,Darling Harbour,3,7
+462,Running Event #462,Street Eats & Beats,150.695112,-33.87615,Running,Royal Botanic Garden,3,6
+463,Running Event #463,Flicks & Food,150.815919,-33.741756,Running,Royal Botanic Garden,3,11
+464,Hiking Event #464,Vintage Vibes,151.141121,-33.93324,Hiking,Manly,3,9
+465,Literature & Writing Event #465,Flicks & Food,151.098983,-33.759018,Literature & Writing,Glebe,3,11
+466,Photography Event #466,Sunset Soirée,150.898619,-33.706286,Visual Arts,The Rocks,3,7
+467,Street Art Event #467,Street Eats & Beats,150.682959,-33.821083,Visual Arts,Newtown,3,3
+468,Music Event #468,Sunset Soirée,150.666792,-33.814871,Music,Balmain,3,3
+469,Music Event #469,Art Attack,150.734928,-33.892712,Music,Pyrmont,3,11
+470,Music Event #470,Cultural Feast,151.016605,-33.766895,Music,Chippendale,3,11
+471,Beach Volleyball Event #471,Creative Carnival,150.682667,-33.984709,Volleyball,Coogee,6,14
+472,Street Food Event #472,Write On!,150.645887,-33.981933,Street Food,Darling Harbour,3,13
+473,Film Screenings Event #473,Snap & Stroll,150.651259,-33.850772,Film,Newtown,3,4
+474,Film Screenings Event #474,Snap & Stroll,150.839312,-33.873066,Film,Sydney Opera House,3,8
+475,Film Event #475,Taste of Sydney,150.781176,-33.72009,Film,Circular Quay,3,9
+476,Street Food Event #476,Vintage Vibes,151.082607,-33.76667,Street Food,Balmain,3,6
+477,Street Food Event #477,Cultural Feast,150.69086,-33.800789,Street Food,Darling Harbour,3,15
+478,Style Event #478,Jazz & Jive,150.650248,-33.801425,Style,Surry Hills,3,13
+479,Music Event #479,Laugh & Learn,150.943237,-33.864621,Music,Chippendale,3,4
+480,Surfing Event #480,Thrill Seeker's Delight,151.245832,-33.811813,Adventure,Coogee,3,10
+481,Film Event #481,DIY Decor,151.148139,-33.852858,Film,Circular Quay,3,4
+482,Film Event #482,Laugh & Learn,150.810905,-33.84084,Film,Chippendale,3,5
+483,Film Event #483,Art Attack,150.810483,-33.713937,Film,Circular Quay,3,15
+484,Dining Event #484,Thrill Seeker's Delight,151.08952,-33.717008,Dining,Darling Harbour,3,15
+485,Literature & Writing Event #485,Laugh & Learn,150.78296,-33.794496,Literature & Writing,Glebe,3,9
+486,Wildlife Watching Event #486,Taste of Sydney,151.209079,-33.842663,Wildlife,Bondi Beach,3,9
+487,Music Event #487,Write On!,151.078496,-33.983891,Music,Balmain,3,9
+488,Style Event #488,Snap & Stroll,150.908639,-33.83052,Style,Paddington,3,4
+489,Music Event #489,DIY Decor,151.038648,-33.971374,Music,Balmain,3,9
+490,Style Event #490,Taste of Sydney,151.148996,-33.926176,Style,Surry Hills,3,3
+491,Street Food Event #491,Eco-Explorer,151.087989,-33.785714,Street Food,Circular Quay,3,10
+492,Street Food Event #492,Mindful Moments,151.170952,-33.904749,Street Food,The Rocks,3,3
+493,Thrifting Event #493,Vintage Vibes,151.230751,-33.860256,Thrifting,Newtown,3,4
+494,Thrifting Event #494,Cultural Feast,150.847424,-33.771858,Thrifting,Paddington,3,4
+495,Thrifting Event #495,Mindful Moments,151.142779,-33.840692,Thrifting,Newtown,3,3
+496,Photography Event #496,Sunset Soirée,151.086266,-33.782605,Visual Arts,The Rocks,3,3
+497,Film Event #497,Sunset Soirée,151.206826,-33.902759,Film,Chippendale,3,5
+498,Surfing Event #498,Write On!,150.719628,-33.70066,Adventure,Bondi Beach,3,15
+499,Gardening Event #499,Mindful Moments,150.658927,-33.809081,Gardening,Pyrmont,3,4
+500,Film Event #500,Sunset Soirée,151.296973,-33.794293,Film,Circular Quay,3,13
+501,Gardening Event #501,Jazz & Jive,150.636262,-33.786862,Gardening,Royal Botanic Garden,3,6
+502,Books Event #502,Thrill Seeker's Delight,151.22407,-33.897128,Books,Glebe,3,14
+503,Visual Arts Event #503,Zen Vibes Only,150.654409,-33.875937,Visual Arts,Surry Hills,3,11
+504,Film Event #504,Thrill Seeker's Delight,151.205957,-33.7984,Film,Glebe,3,10
+505,Running Event #505,Sunset Soirée,151.105898,-33.887057,Running,Royal Botanic Garden,3,3
+506,Hiking Event #506,Creative Carnival,151.070263,-33.841585,Hiking,Manly,3,3
+507,Cooking Event #507,Mindful Moments,150.630716,-33.798067,Cooking,Surry Hills,3,5
+508,Wildlife Watching Event #508,Street Eats & Beats,150.731068,-33.996368,Wildlife,Bondi Beach,3,7
+509,Street Food Event #509,Flicks & Food,151.147347,-33.834587,Street Food,Barangaroo,3,3
+510,Street Food Event #510,DIY Decor,150.730745,-33.992119,Street Food,The Rocks,3,6
+511,Thrifting Event #511,Art Attack,150.724588,-33.974206,Thrifting,Paddington,3,4
+512,Thrifting Event #512,Cultural Feast,151.161362,-33.868301,Thrifting,Paddington,3,8
+513,Thrifting Event #513,Creative Carnival,150.662825,-33.982002,Thrifting,Glebe,3,11
+514,Thrifting Event #514,Cultural Feast,150.667114,-33.734163,Thrifting,Newtown,3,15
+515,Running Event #515,Jazz & Jive,150.781279,-33.895542,Running,Bondi Beach,3,8
+516,Dining Event #516,Taste of Sydney,151.239937,-33.744592,Dining,Circular Quay,3,8
+517,Street Food Event #517,Chill & Grill,150.657719,-33.752981,Street Food,Manly,3,5
+518,Street Food Event #518,Vintage Vibes,151.116489,-33.811976,Street Food,Darling Harbour,3,8
+519,Performing Arts Event #519,Cultural Feast,150.763329,-33.757579,Performing Arts,Sydney Opera House,3,14
+520,Thrifting Event #520,Zen Vibes Only,150.74198,-33.706122,Thrifting,Surry Hills,3,7
+521,Street Food Event #521,Art Attack,151.153058,-33.738087,Street Food,The Rocks,3,3
+522,Literature & Writing Event #522,Taste of Sydney,151.266117,-33.847793,Literature & Writing,Glebe,3,3
+523,Workshops Event #523,Cultural Feast,151.207642,-33.727377,Workshops,Newtown,3,5
+524,Photography Event #524,Cultural Feast,151.154682,-33.900828,Visual Arts,The Rocks,3,9
+525,Street Food Event #525,Thrill Seeker's Delight,150.6121,-33.861796,Street Food,Balmain,3,7
+526,Street Food Event #526,Eco-Explorer,151.038284,-33.902467,Street Food,Pyrmont,3,12
+527,Performing Arts Event #527,Chill & Grill,150.629188,-33.933604,Performing Arts,Sydney Opera House,3,12
+528,Visual Arts Event #528,Cultural Feast,150.898655,-33.786224,Visual Arts,Surry Hills,3,9
+529,Visual Arts Event #529,Jazz & Jive,150.827572,-33.887287,Visual Arts,Surry Hills,3,7
+530,Photography Event #530,Taste of Sydney,150.758338,-33.80836,Visual Arts,The Rocks,3,10
+531,Beach Volleyball Event #531,Taste of Sydney,150.819334,-33.946804,Volleyball,Coogee,6,14
+532,History Walks Event #532,Laugh & Learn,150.861738,-33.810302,Hiking,The Rocks,3,15
+533,Literature & Writing Event #533,Laugh & Learn,151.294438,-33.930607,Literature & Writing,Glebe,3,9
+534,Running Event #534,Chill & Grill,151.215462,-33.764029,Running,Bondi Beach,3,15
+535,Running Event #535,Taste of Sydney,150.792602,-33.942815,Running,Bondi Beach,3,9
+536,Street Food Event #536,Zen Vibes Only,150.638809,-33.989133,Street Food,Manly,3,9
+537,Street Food Event #537,Eco-Explorer,151.017798,-33.725409,Street Food,Circular Quay,3,3
+538,Film Event #538,Art Attack,150.868697,-33.902646,Film,Glebe,3,5
+539,Visual Arts Event #539,Thrill Seeker's Delight,150.771698,-33.764605,Visual Arts,Darling Harbour,3,4
+540,History Walks Event #540,Eco-Explorer,150.710863,-33.762322,Hiking,The Rocks,3,6

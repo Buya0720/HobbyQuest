@@ -14,21 +14,24 @@ with app.app_context():
 @app.context_processor
 def navbar_in():
     navbar_ = [
-        {"text": "Home", "url": url_for('index')},
-        # {"text": "Timeslot", "url": url_for('timeslots')}
+        {"text": "Home", "url": url_for('location')},
+        {"text": "Timeslot", "url": url_for('timeslots')},
+        {"text": "Hobby", "url": url_for('hobby')},
+        {"text": "Browse", "url": url_for('browse')},
+        {"text": "My Events", "url": url_for('my_events')}
     ]
     return dict(navbar = navbar_)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return redirect(url_for('location'))
 
 @app.route('/user')
 def user():
     return render_template()
 
 @app.route('/timeslots')
-def timeslot():
+def timeslots():
     if request.method == "POST":
         data = request.json
         slot_id = data.get('id')
