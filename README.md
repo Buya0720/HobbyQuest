@@ -34,5 +34,5 @@
 2. Run the app.py file:
 
 ```Bash
-python3 main.py
+python3 app.py
 ```
