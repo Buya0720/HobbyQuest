@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-from flask import Flask, jsonify, make_response, render_template, request, url_for
-=======
+
 from flask import Flask, jsonify, make_response, render_template, request, session, redirect, url_for
->>>>>>> 7b2483eb30513e5fc0eaa7483ba89022eff2ef6c
 from calendar_ import db, TimeSlot
 
 app = Flask(__name__, template_folder="./templates")
@@ -30,7 +27,6 @@ def index():
 def user():
     return render_template()
 
-<<<<<<< HEAD
 @app.route('/timeslots')
 def timeslot():
     if request.method == "POST":
@@ -48,9 +44,6 @@ def timeslot():
     slots = TimeSlot.query.all()
     return render_template('timeslot_2.html', slots=slots)
 
-@app.route('/locations')
-def locations():
-=======
 @app.route('/locations', methods=['GET', 'POST'])
 def location():
     if request.method == 'POST':
@@ -61,7 +54,6 @@ def location():
         }
         print(session['location'])
         return redirect(url_for('timeslot'))
->>>>>>> 7b2483eb30513e5fc0eaa7483ba89022eff2ef6c
     return render_template('location_page.html')
 
 @app.route('/timeslot', methods=['GET', 'POST'])
